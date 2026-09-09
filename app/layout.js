@@ -1,6 +1,7 @@
 import { Cinzel_Decorative, EB_Garamond } from "next/font/google";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const display = Cinzel_Decorative({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       <body className="bg-ink text-parchment font-body selection:bg-gold/30 selection:text-parchment">
         <CustomCursor />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
