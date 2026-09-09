@@ -1,8 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// This is the ONLY file you should need to edit to update the
-// website's content. Every section on the page reads from here.
-// ─────────────────────────────────────────────────────────────
-
 export const profile = {
   name: "Nikhil Patil",
   title: "Full Stack Python Developer",
@@ -10,13 +5,13 @@ export const profile = {
     "4+ years conjuring scalable web applications with Python, Django, FastAPI, Flask and React.js.",
   summary:
     "Full Stack Python Developer with 4+ years of hands-on experience building scalable web applications using Python, Django, FastAPI, Flask, and React.js. Proven track record in designing SaaS platforms, EHR systems, and ride-sharing apps with real-time collaboration and multi-tenant architectures. Strong problem solver with a passion for clean code, system optimization, and delivering impactful user experiences.",
-  email: "nikhilpatil3701@gmail.com",
-  phone: "+91 8866210909",
+  email: process.env.NEXT_PUBLIC_EMAIL_ADDRESS,
+  phone: process.env.NEXT_PUBLIC_PHONE_NUMBER,
   location: "Ahmedabad, India",
   links: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    instagram: "https://instagram.com/",
+    github: process.env.NEXT_PUBLIC_GITHUB_URL,
+    linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL,
+    instagram: process.env.NEXT_PUBLIC_INSTAGRAM_URL,
   },
 };
 
