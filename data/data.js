@@ -99,7 +99,7 @@ export const skills = {
     "Amazon CCP",
     "cPanel",
   ],
-  Tools: ["Jira"],
+  Tools: ["Jira", "Trello"],
 };
 
 export const education = [

@@ -294,6 +294,7 @@ export default function Hero() {
           items-center
           gap-3
           border
+          
           border-gold/50
           bg-black/20
           px-7
