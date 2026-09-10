@@ -150,7 +150,8 @@ export default function MoonlitBranches() {
   return (
     <div aria-hidden="true" className="fixed inset-0 -z-20 overflow-hidden">
       <img
-        src="/images/hero-background.jpg"
+        // src="/images/hero-background.jpg"
+        src="/images/hagwots.jpg"
         alt=""
         className="absolute inset-0 h-full w-full object-cover"
         style={{ zIndex: 0 }}
